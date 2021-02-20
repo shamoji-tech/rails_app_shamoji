@@ -1,0 +1,9 @@
+{
+  "name": "rails_app_shamoji",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shamoji-tech/rails_app_shamoji.git",
+  "author": "shamoji-tech <suguru_toyohara@outlook.jp>",
+  "license": "MIT",
+  "private": false
+}
