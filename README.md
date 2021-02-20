@@ -52,3 +52,18 @@ npm install -g yarn
 これでyarnがインストールされた。
 
 
+## rails 導入編
+
+以下のコマンドを入力する
+
+```
+bundle exec rails new [app_name] -B
+```
+
+その後、Gemfileに`gem 'bootsnap'`を追加  
+そして、以下を実行
+
+```
+cd [app_name]
+bundle install --path vendor/bundle
+```
