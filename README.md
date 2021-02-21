@@ -1,6 +1,10 @@
 # rails_app_shamoji
 ポートフォリオ用リポジトリ
 
+様々に作成したポートフォリオを一括で管理しているリポジトリ。  
+作成した物は以下のアプリ
+* shamoji_portfolio
+
 ## 環境構築
 
 ### ruby編
@@ -52,7 +56,7 @@ npm install -g yarn
 これでyarnがインストールされた。
 
 
-## rails 導入編
+## 新規アプリ作成
 
 以下のコマンドを入力する
 
@@ -67,3 +71,8 @@ bundle exec rails new [app_name] -B
 cd [app_name]
 bundle install --path vendor/bundle
 ```
+
+# shamoji_portfolio
+
+最初に作ったrailsアプリ。実験なども含め、一通りRubyを勉強するために、  
+作成したWebアプリケーションである。
